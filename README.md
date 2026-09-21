@@ -1,4 +1,4 @@
-#  Task Management API
+# Task Management API
 
 A clean and scalable RESTful API built with **Node.js** and **Express.js** for managing tasks. Features local JSON file persistence, input validation, pagination, filtering, sorting, centralized error handling, and rate-limiting middleware.
 
@@ -26,6 +26,7 @@ A clean and scalable RESTful API built with **Node.js** and **Express.js** for m
 
 ## Project Structure
 
+```text
 task-management-api/
 ├── data/
 │   └── tasks.json
@@ -45,42 +46,39 @@ task-management-api/
 ├── package.json
 └── README.md
 
----
-
 ## Getting Started
-
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (v16 or higher)
-- npm (Node Package Manager)
+Node.js (v16 or higher)
+
+npm (Node Package Manager)
+
 
 ### Installation
 
 1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/Najma-web-cell/Task-Management-API.git]
-   cd task-management-api
 
-2. Install dependencies:
+  git clone [https://github.com/Najma-web-cell/Task-Management-API.git](https://github.com/Najma-web-cell/Task-Management-API.git)
+cd task-management-api
 
-Bash
-npm install
+2. **Install dependencies:**
 
-3. Set up Environment Variables:
+   npm install
+
+3. **Set up Environment Variables:**
 Copy .env.example to .env and set your desired port and configurations:
 
-Bash
 cp .env.example .env
 
-4. Start the server:
+4. **Start the server:**
 
-Bash
 # Development mode
 npm run dev
 
 # Production mode
 npm start
 
+**API Endpoints:**
 
 | Method | Endpoint | Description |
 | --- | --- | --- |
@@ -90,7 +88,8 @@ npm start
 | `PUT` | `/api/tasks/:id` | Update an existing task |
 | `DELETE` | `/api/tasks/:id` | Delete a task |
 
-Author
+**Author**
+
 Najma Chaudhary
 
 GitHub: @Najma-web-cell
