@@ -46,31 +46,28 @@ task-management-api/
 ├── package.json
 └── README.md
 
-## Getting Started
-### Prerequisites
-
+Getting Started
+Prerequisites
 Node.js (v16 or higher)
 
 npm (Node Package Manager)
 
+Installation
+1. Clone the repository:
 
-### Installation
-
-1. **Clone the repository:**
-
-  git clone [https://github.com/Najma-web-cell/Task-Management-API.git](https://github.com/Najma-web-cell/Task-Management-API.git)
+git clone https://github.com/Najma-web-cell/Task-Management-API.git
 cd task-management-api
 
-2. **Install dependencies:**
+2. Install dependencies:
 
-   npm install
+npm install
 
-3. **Set up Environment Variables:**
+3. Set up Environment Variables:
 Copy .env.example to .env and set your desired port and configurations:
 
 cp .env.example .env
 
-4. **Start the server:**
+4. Start the server:
 
 # Development mode
 npm run dev
@@ -78,7 +75,7 @@ npm run dev
 # Production mode
 npm start
 
-**API Endpoints:**
+API Endpoints
 
 | Method | Endpoint | Description |
 | --- | --- | --- |
@@ -88,8 +85,7 @@ npm start
 | `PUT` | `/api/tasks/:id` | Update an existing task |
 | `DELETE` | `/api/tasks/:id` | Delete a task |
 
-**Author**
-
+Author
 Najma Chaudhary
 
 GitHub: @Najma-web-cell
